@@ -1,2 +1,2 @@
 # Mausam-Kumar
-html,java,python
+java
