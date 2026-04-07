@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let myPromise=new Promise(function(resolve,reject){
+            let age=25;
+            if(age>=18){
+                resolve("valid age");
+            }
+            else{
+                reject("wait for next year");
+            }
+        });
+        myPromise.then(msg=>console.log(msg)).catch(error=>console.log(error));
+         console.log(myPromise);
+
+
+         //Async/Await in JavaScript allows you to write asynchronous code in a clean, synchronous-like manner, making it easier to read, understand, and maintain while working with promises. async functions always return a Promise. await pauses execution until the Promise is resolved or rejected.
+
+         // api....  https://dummyjson.com/products
+
+            async function  userInfo(){
+                try{
+        //  let userData=fetch('https://api.github.com/users/');
+
+         let response=await userData.json();
+         console.log(response);
+            } // try end
+      catch(error){
+         console.log(error);
+            } // catch end
+            }  // function end
+            userInfo();
+
+     // Higher order Function:-
+       let num=[4,6,7,8,9,,2,1];
+
+       // map
+       let mapResult=num.map(num=>num*num);
+       console.log(mapResult);
+       // reduce
+       let sum=num.reduce((total,num)=>total+num);
+       console.log(sum);
+       // filter
+       let sorting=num.filter(num=>num>2);
+       console.log(sorting);
+       // foreach
+       num.forEach(num=>console.log(num*2));
+
+       // Local storage:- localStorage in JavaScript allows web applications to store data locally within the user's browser – with no expiration date. The data isn't deleted when the browser is closed, and is available when the browser is opened again.
+
+        let myInfo={
+            name:"Mausam Kumar",
+            class:"CSE23",
+            gender:"male",
+            height:"6.1",
+            email:"er.kumar.mausam@gmail.com",
+        };
+
+        //store the object by converting it to a JSON string
+        
+    </script>
+</body>
+</html>

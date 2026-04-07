@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional statement</title>
+</head>
+<body>
+    <script>
+        //conditional statement :- allow code to make decision and run different blocks of code based on wheather  a condition is true or false
+        // if. condition....
+        // age validation for vote casting
+        let age=23;
+        if(age>=18){
+            console.log(age + "  is a valid age of vote casting");
+        }
+        // if... else-----
+        let myAge=92;
+        if (myAge<18){
+            console.log(" not valid ")
+        }
+        else{
+            console.log(" valid age")
+        }
+        // switch....
+        let grade = 'A';
+
+        switch(grade){
+            case 'A': result=" First division ";
+            break;
+             
+            case 'B': result= "Second Division ";
+            break;
+
+            case 'C': result=" Third Division ";
+            break;
+            default:result="Fail";
+        }
+        console.log(result);
+
+        //if else if else............
+
+        let marks = 42;
+
+        if(marks>=60){
+            console.log(" First Grade ");
+        }
+        else if(marks<60 && marks>=40){
+            console.log(" Second Grade ");
+        }
+        else if(marks<40 &&  marks>=33){
+            console.log(" Third Grade ");
+        }
+        else{
+            console.log(" Fail ");
+        }
+
+        
+
+    </script>
+    
+</body>
+</html>

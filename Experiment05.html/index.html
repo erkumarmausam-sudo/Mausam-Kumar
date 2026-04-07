@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Salary Management System</title>
+     <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <div class="container">
+            
+        <h2>Employee Salary Management System</h2>
+        <table width="50%" border="0" align="center" cellpadding="5" cellspacing="2">
+            <tr>
+                <td><label for="">Employee Name</label></td>
+                <td>: </td>
+                <td> <input type="text" id="name" placeholder="Employee Name"></td>
+            </tr>
+
+             <tr>
+                <td><label for="">Employee Id</label></td>
+                <td>: </td>
+                <td> <input type="text" id="empId" placeholder="Employee Id"></td>
+            </tr>
+
+             <tr>
+                <td><label for="">Employee Salary</label></td>
+                <td>: </td>
+                <td> <input type="number" id="salary" placeholder="Employee Salary"></td>
+            </tr>
+
+             <tr>
+                <td><label for="">Employee Department</label></td>
+                <td>: </td>
+                <td> <input type="text" id="dept" placeholder="Employee Department"></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="addEmployee()">Add Employee</button></td>
+                <td><button onclick="displayEmployees()">Display All</button></td>
+                <td><button onclick="filterSalary()">Salary > 50000</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="totalSalary()">Total Salary</button></td>
+                <td><button onclick="averageSalary()">Average Salary</button></td>
+                <td><button onclick="countDepartment()">Count by Department</button></td>
+            </tr>
+        </table>
+       
+        <div id="output"></div>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
