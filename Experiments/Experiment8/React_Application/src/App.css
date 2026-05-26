@@ -1,0 +1,28 @@
+.container{
+  border: 0px solid black;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: rgb(100, 100, 100) 0px 4px 8px;
+  width:500px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.button{
+  margin: 12px;
+  border: 0 solid black;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white; 
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+} 
+.h1{
+  text-align: center;
+  margin-bottom: 2px;
+  justify-content: center;
+  flex-direction: row;
+}
