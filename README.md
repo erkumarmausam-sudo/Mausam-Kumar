@@ -52,4 +52,4 @@ This semester helped me transition from basic webpage development to interactive
 
 ## 👨‍💻 Author
 
-Mausam Rajput
+<h1><b>**Mausam Kumar**</b></h1>
