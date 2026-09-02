@@ -1,4 +1,4 @@
-# ⚛️ Second Semester React JS Projects
+# ⚛️ Second Semester React JS Experiments
 
 Welcome to my second semester web development repository. This repository contains projects and practical work developed using React JS and JavaScript as part of my learning journey in modern frontend development.
 
@@ -18,7 +18,7 @@ The purpose of this repository is to showcase my progress in learning React JS f
 * Basic Frontend Development Concepts
 
 ## 📚 What I Learned
-
+   
 Through these projects, I gained practical understanding of:
 
 * Building dynamic user interfaces
